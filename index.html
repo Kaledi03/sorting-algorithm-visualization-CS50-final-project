@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lange="en">
+    <head>
+        <title>Sorting Algorythms Visualization</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="height: 100%;">
+       
+        <div class="container">
+            <div class="lateral">
+                <button id="generate" onClick="shuffle()"> Generate </button>
+            </div>
+
+            <div class="central" id="main_space">
+                
+            </div>
+
+            <div class="lateral">
+                <button id="sort" onClick="sort()"> Sort </button>
+                 
+                <ul class="algo_choice">
+                    <li>
+                    <input type="radio" id="selection" name="algo" checked="checked"/>
+                    <label for="selection">Selection sort</label>
+                    </li>
+                    <li>
+                    <input type="radio" id="insertion" name="algo"/>
+                    <label for="insertion">Insertion sort</label>
+                    </li>
+                    <li>
+                    <input type="radio" id="bubble" name="algo"/>
+                    <label for="bubble">Bubble sort</label>
+                    </li>
+                </ul>
+
+                
+            </div>
+        </div>
+      <script src="script.js"></script>
+    </body>
+</html>
