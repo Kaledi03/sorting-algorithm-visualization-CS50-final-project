@@ -11,9 +11,9 @@ The default number of elements is 100 but can be changed by changing the variabl
 You can visit the live version of the website [here](https://kaledi03.github.io/sorting-algorithm-visualization-CS50-final-project/) or you can download the source code and manipulate it as you like.
 
 ## Languages used:
-1- HTML
-2- CSS
-3- JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ## Explanation of 'script.js':
 -Global ariable declaration:
