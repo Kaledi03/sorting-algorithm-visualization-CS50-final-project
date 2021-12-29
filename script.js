@@ -144,7 +144,6 @@ function used by different others functions to swap two elements of the array
 with the value at index 'element2'
 */
 function swap(element1, element2) {
-    //TODO - VISUALIZATION OF THE SWAP
     let temp = array[element1];
     array[element1] = array[element2];
     array[element2] = temp;
