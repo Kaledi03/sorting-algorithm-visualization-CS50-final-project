@@ -21,8 +21,12 @@
 }
 
 .array_element{
-    background: #ffffff;
+    background: #b32d38;
     margin-right: 0.1%;
+}
+
+.array_element:hover{
+    background: #bd343f;
 }
 
 button{
@@ -30,11 +34,18 @@ button{
     width: 70%;
     font-size: 200%;
     margin: 15%;
-    background-color: #266694;
+    background-color: #2d856d;
     color: white;
     font-family: sans-serif, Bold;
-    border-radius: 6%;
+    border-radius: 3%;
+    border: none;
 }
+
+button:hover{
+    background-color: #52bf91;
+}
+
+
 
 ul{
     list-style-type:none;
@@ -49,16 +60,20 @@ li{
 
 li label{
     display: inline-block;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     padding: 10% 10%;
     font-family: sans-serif, Bold;
-    font-size: 16px;
-    border-radius: 4px;
+    font-size: 110%;
+    border-radius: 3%;
 }
 
 li input[type="radio"]:checked + label{
-    background-color:#266694;
-    border-color: #388ea9;
+    background-color:#2d856d;
+}
+
+
+li input[type="radio"]:hover + label{
+    background-color:#52bf927c;
 }
 
 input{

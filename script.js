@@ -32,14 +32,8 @@ function called by the 'sort' button that by checking the radio buttons
 calls one of the functions for each algorythm
 */
 function sort() {
-    //when the sorting starts the buttons are disabled for 5000ms (5s)
     document.getElementById("generate").disabled = true;
     document.getElementById("sort").disabled = true;
-    setTimeout(function(){
-        document.getElementById("generate").disabled = false;
-        document.getElementById("sort").disabled = false;
-    },5000);
-
     //by reading the value of the radio button the function chose which algorythm to use
     var getSelectedValue = document.querySelector('input[name="algo"]:checked');
     if(getSelectedValue != null){
@@ -67,7 +61,8 @@ function bubbleSort(){
         }
     }
     if (swapped == false){
-        console.log("returning");
+        document.getElementById("generate").disabled = false;
+        document.getElementById("sort").disabled = false;
         return;
     }
     /*
@@ -98,6 +93,8 @@ function selectionSort(i) {
     
 
     if (i+1 > array_leangth-1){
+        document.getElementById("generate").disabled = false;
+        document.getElementById("sort").disabled = false;
         return;
     }
     /*
@@ -123,10 +120,11 @@ function insertionSort(i) {
         } else {
             break;
         }
-
     }
 
     if (i+1 > array_leangth) {
+        document.getElementById("generate").disabled = false;
+        document.getElementById("sort").disabled = false;
         return;
     }
     /*
