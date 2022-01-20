@@ -10,7 +10,7 @@
 * The default number of elements is 100 but can be changed by changing the variable 'array_leangth' at line 12.
 
 ## Usage:
-You can visit the live version of the website [here](https://kaledi03.github.io/sorting-algorithm-visualization-CS50-final-project/) or you can download the source code and manipulate it as you like.
+You can visit the live version of the website [here](https://kaledi03.github.io/sorting-algorithm-visualization-CS50-final-project/) or you can download the source code and change it as you want.
 
 ## Languages used:
 * HTML
