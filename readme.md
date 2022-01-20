@@ -1,6 +1,5 @@
 # Sorting algorythm visualization
 
-
 ## About the project:
 * Developed by Kaled Brahmi.
 
